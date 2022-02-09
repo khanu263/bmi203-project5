@@ -1,7 +1,4 @@
-# Project 5
-Implementation of KMeans and Silhouette Scoring
-
-# Assignment
+# bmi203-project5
 
 ## Overview
 The goal of this assignment is to implement the k-means clustering algorithm and the silhouette scoring metric. 
@@ -62,20 +59,20 @@ scores = silhouette.score(labels)
 ```
 
 ## Tasks
-[ TODO ] Complete the KMeans class with your implementation of the algorithm
-  * complete the `fit` method
-  * complete the `predict` method
-  * complete the `get_error` method
-  * complete the `get_centroid` method
+* ~~Complete the KMeans class with your implementation of the algorithm~~
+  * ~~complete the `fit` method~~
+  * ~~complete the `predict` method~~
+  * ~~complete the `get_error` method~~
+  * ~~complete the `get_centroid` method~~
 
-[ TODO ] Complete the Silhouette class with your implementation of the metric
+* [TODO] Complete the Silhouette class with your implementation of the metric
   * complete the `score` method
 
-[ TODO ] Unit Testing
+* [TODO] Unit Testing
   * KMeans Class
   * Silhouette Class
 
-[ TODO ] Packaging
+* [TODO] Packaging
   * pip installable module
   * github actions (install + pytest)
 
