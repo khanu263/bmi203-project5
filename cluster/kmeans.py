@@ -28,6 +28,7 @@ class KMeans:
         # (metrics come from cdist docs, limited to those that work on float vectors with no extra args)
         acceptable = ("braycurtis", "canberra", "chebyshev", "cityblock", "correlation", "cosine", "euclidean", "jaccard", "seuclidean", "sqeuclidean")
         assert metric in acceptable, "Invalid metric string."
+        self.metric = metric
 
         # Verify tolerance is acceptable
         assert tol > 0, "Tolerance must be greater than zero."
