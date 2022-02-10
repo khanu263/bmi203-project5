@@ -73,7 +73,7 @@ scores = silhouette.score(labels)
   * ~~Silhouette Class~~
 
 * [TODO] Packaging
-  * pip installable module
+  * ~~pip installable module~~
   * github actions (install + pytest)
 
 # Getting Started
