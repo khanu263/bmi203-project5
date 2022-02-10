@@ -1,5 +1,7 @@
 # bmi203-project5
 
+![Unit test status](https://github.com/khanu263/bmi203-project5/workflows/Unit%20tests/badge.svg)
+
 ## Overview
 The goal of this assignment is to implement the k-means clustering algorithm and the silhouette scoring metric. 
 
@@ -72,9 +74,9 @@ scores = silhouette.score(labels)
   * ~~KMeans Class~~
   * ~~Silhouette Class~~
 
-* [TODO] Packaging
+* ~~Packaging~~
   * ~~pip installable module~~
-  * github actions (install + pytest)
+  * ~~github actions (install + pytest)~~
 
 # Getting Started
 To get started you will need to fork this repo onto your own github account. Work on your codebase from your own repo and commit changes. I have listed the minimum (and maximum) python module requirements in `requirements.txt` 
