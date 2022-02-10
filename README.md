@@ -68,9 +68,9 @@ scores = silhouette.score(labels)
 * ~~Complete the Silhouette class with your implementation of the metric~~
   * ~~complete the `score` method~~
 
-* [TODO] Unit Testing
+* ~~Unit Testing~~
   * ~~KMeans Class~~
-  * Silhouette Class
+  * ~~Silhouette Class~~
 
 * [TODO] Packaging
   * pip installable module
