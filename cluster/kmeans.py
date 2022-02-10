@@ -54,9 +54,14 @@ class KMeans:
         # Make sure there are enough observations
         assert mat.shape[0] >= self.k, f"There must be at least {self.k} observations."
 
-        # Select k points as the initial centroids and initialize error
+        # Select k points as the initial centroids and initialize error.
         # ("Forgy" initialization as per https://en.wikipedia.org/wiki/K-means_clustering)
-        self.centroids = mat[np.random.choice(mat.shape[0], size = self.k, replace = False)]
+        #
+        # Create a new RNG object for this task --
+        # https://albertcthomas.github.io/good-practices-random-number-generators/
+        #
+        rng = np.random.default_rng()
+        self.centroids = mat[rng.choice(mat.shape[0], size = self.k, replace = False)]
         self.error = np.inf
 
         # Since we need to use point-centroid distance twice in a given iteration -- once
