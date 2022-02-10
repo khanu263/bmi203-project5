@@ -69,7 +69,7 @@ scores = silhouette.score(labels)
   * ~~complete the `score` method~~
 
 * [TODO] Unit Testing
-  * KMeans Class
+  * ~~KMeans Class~~
   * Silhouette Class
 
 * [TODO] Packaging
